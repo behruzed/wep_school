@@ -1,0 +1,236 @@
+:root{
+    --c-oq: #fff;
+    --c-gray: #E5E5E5;
+    --c-orange: #FCA331;
+    --c-kok: #14213D;
+    --c-qora: #0A1428;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.description-body{
+  background-color: #d9eee1;
+  margin: 0;
+  padding: 0;
+}
+.description-cont{
+  padding: 50px;
+  text-align: center;
+}
+.description-h3{
+  padding-bottom: 20px;
+}
+.description-p{
+  padding: 10px;
+}
+.navbarr{
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    z-index: 999;
+}
+.navbar-brand img{
+    width: 50px;
+}
+.btn{
+
+    background-color: var(--c-orange);
+}
+
+
+  
+body {
+  color: var(--c-qora);  
+  font-size: 1.4rem;
+}
+  
+a{
+  text-decoration: none;
+  color: var(--c-qora);
+}
+.frontbackphoto img{
+  width: 300px;
+}
+.chap_col{
+  background-color: #f7f7f7;
+  z-index: 998;
+  overflow-y: scroll;
+}
+.accordion-item{
+  border: none;
+
+}
+.accordion-item button{
+  border-radius: 20px;
+}
+.accordion{
+  padding-right: 14px;
+  width: 24%;
+  height: 100vh;
+  overflow-y: scroll;
+  position: fixed;
+  padding-bottom: 150px;
+}
+.accordion-body ul li{  
+  transition: all .1s;
+  font-size: 1rem;
+  border-radius: 20px;
+}
+.accordion-body ul li:hover{
+  transform: translate(-2px, -2px);
+  background-color: var(--c-gray);
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+}
+.nbbcont{
+  text-align: center;
+  padding: 30px;
+  background-color: rgba(101, 211, 255, 0.164);
+}
+
+.nbb{
+  font-size: 1.4rem;
+  color: rgb(0, 60, 255);
+  padding-top: 15px;
+}
+.nbb:hover{
+  text-decoration: underline;
+  color: var(--c-orange);
+}
+.chap{
+    padding-right: 40px;
+}
+.accordion{
+  margin-top: 10px;
+}
+.ul-li-b{
+  font-size: 1.2rem;
+}
+.accordion-button{
+  background-color: var(--c-oq);
+}
+.chap ul li{
+    animation-timing-function: 2s;
+    animation-name: tillar;
+    animation-duration: .2s;
+}
+.chap ul li:hover{
+    color: var(--c-kok);
+}
+.chap ul li{
+    padding: 10px;
+}
+.chap {
+    padding-top: 80px;
+  }
+@keyframes tillar {
+    from {
+        transform: rotate(-10deg);
+        margin-top: -30px;
+    }
+
+    to {
+      transform: rotate(0deg);
+        margin-left: 0px;
+    }
+  }
+
+.ong h1{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--c-qora);
+}
+
+.cards .card{
+    height: 300px;
+    text-align: center;
+    transition: all .3s;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+.card img{
+    transition: .3s;
+    width: 120px;
+    padding: 30px;
+}
+.img2 img{
+    width: 170px;
+}
+.img3 img{
+  width: 180px;
+}
+
+.cards .card:hover{
+    background-color: var(--c-kok);
+    color: #fff;
+    box-shadow: 8px 8px 10px 3px rgba(0,0,0,0.2);
+    transform: translate(-3px, -3px);
+}
+.ong{
+    padding-bottom: 70px;
+}
+.cards .card:hover img{
+    transform: scale(1.3);
+}
+.cards .card:hover p{
+    color: var(--c-oq);
+}
+.h1h{
+    font-size: 30px;
+}
+.til-h1{
+  
+}
+.til-h4{
+  padding: 10px;
+}
+.til-ul{
+  margin: 20px;
+}
+.til-matn{
+  display: block;
+  padding: 20px;
+}
+.til-kod{
+  border: 25px solid var(--c-gray);
+  padding: 20px;
+}
+.til-cod{
+  margin-top: 15px;
+  margin-bottom: 10px;
+  display: block;
+  background-color: var(--c-gray);
+  padding: 20px;
+}
+.til-qoshimcha{
+  margin-top: 15px;
+  margin-bottom: 10px;
+  display: block;
+  background-color: rgba(101, 211, 255, 0.164);
+  padding: 20px;
+}
+.oldinkeyin{
+  justify-content: space-between;
+  display: flex;
+  margin: 20px;
+  
+}
+.li-bg{
+  background-color: var(--c-gray);
+}
+
+.til-qoshimcha-2{
+  background-color: rgba(146, 255, 146, 0.795);
+  display: block;
+  padding: 20px;
+}
